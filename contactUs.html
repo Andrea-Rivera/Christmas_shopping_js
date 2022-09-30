@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Site main css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkalami&family=Gentium+Plus:ital@1&family=Mountains+of+Christmas:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<header>
+    <!--Navbar Start-->
+    <nav>
+        <ul>
+            <li><a href="/index.html">Stories</a></li>
+            <li><a href="/decorations.html">Decorations</a></li>
+            <li><a href="#">Contact Us</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+<body class="contactBody">
+    <section class="contactUs">
+        <h1 class="headerDecorations"><em>Contact Us</em></h1>
+        <form>
+
+            <p>Tell us what you like to know more:</p>
+            <input type="checkbox" id="decorations" name="decorations" value="decorations">
+            <label for="decorations"> Decorations</label><br>
+            <input type="checkbox" id="giftIdeas" name="giftIdeas" value="giftIdeas">
+            <label for="giftIdeas"> Gift Ideas</label><br>
+            <input type="checkbox" id="events" name="events" value="events">
+            <label for="events"> Events</label>
+
+            <p>Send us a message:</p>
+            <label for="Name"> Name</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="Email"> Email</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="Message"> Message</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" " onclick=" biggerButton();" value=" Submit" class="submitButton">
+
+        </form>
+
+    </section>
+    <script>
+        function biggerButton() {
+            let buttonSubmit = document.querySelector('.submitButton');
+            console.log(buttonSubmit);
+            buttonSubmit.style.transform = "scale(1.5)";
+
+
+        }
+    </script>
+</body>
+
+<footer>
+    <div class="icons">
+        <!-- Add font awesome icons -->
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </div>
+    <!--copyright-->
+    <p>
+        Copyright &copy; 2022, Andrea Rivera.
+    </p>
+    <!--Footer Section End-->
+</footer>
+
+</html>
