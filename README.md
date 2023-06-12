@@ -1,11 +1,9 @@
-# {Andrea del Pilar Rivera Pena } - Javascript Task[My christmas shopping site]( {{ link_to_your_site }} )
+# Andrea del Pilar Rivera Pena - Javascript Task[My christmas shopping site]( {{ link_to_your_site }} )
 
-## Project Requirements
+## Project Description
 
-### Content{{ Add a short paragraph describing the features below. }}- [ ] At least one profile picture- [ ] Biography (at least 100 words)- [ ] Functional Contact Form- [ ] "Projects" section- [ ] Links to external sites, e.g. GitHub and LinkedIn.
+### Content{This website is designed for a Christmas shop. To display, buy products and get in contact with the business.}- [x] Stories Page: displays short stories about popular ornaments for christmas - [x] Decorations Page: Images of christmas decorations- [x] Store Page: People can buy items from the shop [x] Contact Us Page: Customers can see the location of the shop and send a message.
 
-### Technical{{ Add a short paragraph describing the features below. }}- [ ] At least 2 web pages.- [ ] Version controlled with Git- [ ] Deployed on GitHub pages.- [ ] Implements responsive design principles.- [ ] Uses semantic HTML.
+### Technical{ The website will use different concepts that I learned. To make it responsive, I have used flexbox and grid }- [x] Stories Page:I have used images to create a banner and also to insert them into cards.-[x] Decorations Page: I have used images to learn more about flexbox - [x] Store Page: I use javascript to manipulate the DOM and calculate the price of items in the cart - [x] Contact Us Page: I practice how to insert maps and create forms using CSS and HTML- [x] Version controlled with Git- [x] Deployed on GitHub pages.- [x] Implements responsive design principles.- [x] Uses semantic HTML.
 
-### Bonus (optional){{ Add a short paragraph describing the features below, if you included any. }}- [ ] Different styles for active, hover and focus states.- [ ] Include JavaScript to add some dynamic elements to your site. (Extratricky!)
-
-### Screenshots> Please include the following:
+### Screenshots:
