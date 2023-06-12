@@ -15,20 +15,13 @@
 
 ## The website will use different concepts that I learned. To make it responsive, I have used flexbox and grid.
 
-# [x] Stories Page:I have used images to create a banner and also to insert them into cards.
-
-# [x] Decorations Page: I have used images to learn more about flexbox
-
-# [x] Store Page: I use javascript to manipulate the DOM and calculate the price of items in the cart
-
-# [x] Contact Us Page: I practice how to insert maps and create forms using CSS and HTML
-
-# [x] Version controlled with Git
-
-# [x] Deployed on GitHub pages.
-
-# [x] Implements responsive design principles.
-
-# [x] Uses semantic HTML.
+- [x] Stories Page:I have used images to create a banner and also to insert them into cards.
+- [x] Decorations Page: I have used images to learn more about flexbox
+- [x] Store Page: I use javascript to manipulate the DOM and calculate the price of items in the cart
+- [x] Contact Us Page: I practice how to insert maps and create forms using CSS and HTML
+- [x] Version controlled with Git
+- [x] Deployed on GitHub pages.
+- [x] Implements responsive design principles.
+- [x] Uses semantic HTML.
 
 ### Screenshots:
