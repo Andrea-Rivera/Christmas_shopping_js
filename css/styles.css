@@ -58,12 +58,13 @@ h4{
   color:rgb(222, 37, 37);
 }
 
+
  /*STORIES PAGE*/
 /* Banner */
 .header {
   padding: 70px;
   text-align: center;
-  background-image: url("images/christmas/jeshoots-com-7VOyZ0-iO0o-unsplash.jpg");
+  background-image: url("../images/christmas/jeshoots-com-7VOyZ0-iO0o-unsplash.jpg");
   color: white;
   font-size: 30px;
   font-family: 'Mountains of Christmas', cursive;
@@ -139,7 +140,7 @@ p{
 
  /*CONTACT US PAGE*/
  .contact-body{
-  background-image: url('/images/christmas/sarah-evans-kaa7DQ74YiY-unsplash.jpg');
+  background-image: url('../images/christmas/sarah-evans-kaa7DQ74YiY-unsplash.jpg');
   background-size:contain;
   display: grid;
   align-items: center;
