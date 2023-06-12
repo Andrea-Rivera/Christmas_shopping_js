@@ -22,40 +22,42 @@
     <!--Navbar Start-->
     <nav>
         <ul>
-            <li><a href="/index.html">Stories</a></li>
-            <li><a href="/decorations.html">Decorations</a></li>
-            <li><a href="/store.html">Store</a></li>
+            <li><a href="index.html">Stories</a></li>
+            <li><a href="decorations.html">Decorations</a></li>
+            <li><a href="store.html">Store</a></li>
             <li><a href="#">Contact Us</a></li>
 
         </ul>
     </nav>
 </header>
 
-<body class="contactBody">
-    <section class="contactUs">
-        <h1 class="headerDecorations"><em>Contact Us</em></h1>
-        <form>
+<body class="contact-body">
+    <h1 class="headerDecorations"><em>Contact Us</em></h1>
+    <div class="contact-in">
 
-            <p>Tell us what you like to know more:</p>
-            <input type="checkbox" id="decorations" name="decorations" value="decorations">
-            <label for="decorations"> Decorations</label><br>
-            <input type="checkbox" id="giftIdeas" name="giftIdeas" value="giftIdeas">
-            <label for="giftIdeas"> Gift Ideas</label><br>
-            <input type="checkbox" id="events" name="events" value="events">
-            <label for="events"> Events</label>
+        <section class="contact-form">
 
-            <p>Send us a message:</p>
-            <label for="Name"> Name</label><br>
-            <input type="text" id="fname" name="fname"><br><br>
-            <label for="Email"> Email</label><br>
-            <input type="email" id="email" name="email"><br><br>
-            <label for="Message"> Message</label><br>
-            <input type="text" id="Message" name="Message"><br><br>
-            <input type="submit" " onclick=" biggerButton();" value=" Submit" class="submitButton">
+            <form>
 
-        </form>
+                <p>Send us a message:</p>
 
-    </section>
+                <input type="text" placeholder="Name" id="fname" name="fname" class="contact-form-txt"><br><br>
+
+                <input type="email" placeholder="Email" id="email" name="email" class="contact-form-txt"><br><br>
+
+                <textarea placeholder="Message" class="contact-form-textarea"></textarea><br>
+                <input type=" submit" " onclick=" biggerButton();" value=" Submit" class="submitButton">
+
+            </form>
+
+        </section>
+        <section class="contact-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28321.278552785767!2d153.01056696435685!3d-27.464283405598596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b9159f617f3268d%3A0x882d51f5a44ddd20!2s488%20Queen%20St%2C%20Brisbane%20City%20QLD%204000!5e0!3m2!1sen!2sau!4v1686538259192!5m2!1sen!2sau"
+                width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
     <script>
         function biggerButton() {
             let buttonSubmit = document.querySelector('.submitButton');
