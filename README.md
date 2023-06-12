@@ -30,4 +30,4 @@
 
 #### Stories Page
 
-![ Stories Page ]( {{ ./images/screenshot_stories}} )
+![ Stories Page ](./images/screenshot_stories)
