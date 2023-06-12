@@ -30,4 +30,8 @@
 
 #### Stories Page
 
-![ Stories Page ](images/screenshot_stories)
+![ Stories Page ](images/screenshot_stories.JPG)
+![ Decorations Page ](images/screenshot_decorations.JPG)
+![ Store Page ](images/screenshot_stores.JPG)
+![ Contact Page ](images/screenshot_contact.JPG)
+
