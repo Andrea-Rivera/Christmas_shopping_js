@@ -31,7 +31,14 @@
 #### Stories Page
 
 ![ Stories Page ](images/screenshot_stories.JPG)
+
+###Decorations Page
+
 ![ Decorations Page ](images/screenshot_decorations.JPG)
+
+### Store Page
 ![ Store Page ](images/screenshot_stores.JPG)
+
+###Contact Page
 ![ Contact Page ](images/screenshot_contact.JPG)
 
