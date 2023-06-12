@@ -27,3 +27,7 @@
 - [x] Uses semantic HTML.
 
 ### Screenshots:
+
+#### Stories Page
+
+![ Stories Page ]( {{ ./images/screenshot_stories}} )
