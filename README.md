@@ -1,4 +1,4 @@
-# Andrea del Pilar Rivera Pena - Javascript Task[My christmas shopping site](https://andrea-rivera.github.io/Christmas_shopping_js/index.html)
+# Andrea del Pilar Rivera Pena - [My christmas shopping site](https://andrea-rivera.github.io/Christmas_shopping_js/index.html)
 
 ## Project Description
 
