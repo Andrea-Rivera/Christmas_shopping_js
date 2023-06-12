@@ -1,5 +1,5 @@
 
-  /*Navbar */
+  /*NAVBAR */
 nav {
     display: inline-block;
     position: fixed;
@@ -7,7 +7,7 @@ nav {
     left: 0;
     width: 100%;
     background-color: red; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right, rgb(234, 87, 87) , rgb(4, 187, 4));
+    background-image: linear-gradient(to right, rgb(234, 87, 87) , rgb(11, 117, 11));
     padding: 0 0 0 1.2em;
     z-index: 1004;
     font-family: 'Alkalami', serif;
@@ -58,13 +58,12 @@ h4{
   color:rgb(222, 37, 37);
 }
 
- /*STORIES WEBPAGE*/
+ /*STORIES PAGE*/
 /* Banner */
 .header {
   padding: 70px;
   text-align: center;
   background-image: url("/images/christmas/jeshoots-com-7VOyZ0-iO0o-unsplash.jpg");
-  background-size:cover;
   color: white;
   font-size: 30px;
   font-family: 'Mountains of Christmas', cursive;
@@ -103,13 +102,14 @@ p{
 
 }
 
- /*DECORATION WEBPAGE*/
+ /*DECORATION PAGE*/
 #content{
    
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    align-items: center;
     background-image: url("https://images.unsplash.com/photo-1508172819040-536e3f54970f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80");
     background-size:cover;
 
@@ -137,40 +137,113 @@ p{
     height: 20em;
   }
 
- /*CONTACT US WEBPAGE*/
- .contactBody{
+ /*CONTACT US PAGE*/
+ .contact-body{
   background-image: url(/images/christmas/sarah-evans-kaa7DQ74YiY-unsplash.jpg);
   background-size:contain;
- }
- .contactUs{
+  display: grid;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
 
-  box-shadow: 8px 8px 8px 8px rgba(16, 13, 13, 0.5);
-    transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
-    margin:100px 50px;
-    padding: 20px;
-    text-align: left;
-    background-color: rgb(219, 229, 225);
-   
  }
 
 
- .submitButton{
-  font-family: 'Gentium Plus', serif;
-  font-size: larger;
-  padding:10px 15px;
-  background-color:rgb(130, 213, 166);
-  border-radius: 10px ;
-  border: 2px solid green;
-  margin: 10px 0;
- }
-
- #submitButton:hover {
-  padding:20px 30px;;
+ .contact-in{
+  width: 100%;
+    height: 100%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #ead1d1;
+    background-color: white;
 }
 
 
- /*SALES WEBPAGE*/
+
+ .contact-map{
+  width: 100%;
+  height: auto;
+  flex:50%;
+  margin:60px 20px;
+  padding:5px;
+
+}
+
+.contact-map iframe{
+  width: 100%;
+  height: 100%;
+
+}
+
+ .contact-form{
+
+    box-shadow: 8px 8px 8px 8px rgba(16, 13, 13, 0.5);
+    transition: 0.3s;
+    border-radius: 5px; 
+    text-align: center;
+    margin:60px 20px;
+    padding:5px;
+    background-color: rgb(219, 229, 225);
+    width: 100%;
+    height: 90%;
+    flex:50%;
+
+   
+ }
+.contact-form-txt
+ {
+  width: 70%;
+  height: 20px;
+  border-radius: 40px;
+  outline:none;
+  margin-bottom:5px;
+  padding: 15px;
+ }
+
+ .contact-form-txt::placeholder{
+  color:#aaa;
+  font-family: 'Gentium Plus', serif;
+  font-size: larger;
+ }
+
+ .contact-form-textarea
+ {
+  width: 70%;
+  height: 130px;
+  border-radius: 40px;
+  outline:none;
+  margin-bottom:20px;
+  padding: 15px;
+ }
+
+ .contact-form-textarea::placeholder{
+  color:#aaa;
+  font-family: 'Gentium Plus', serif;
+  font-size: larger;
+ }
+
+ .submitButton{
+  width: 50%;
+  height: 20px;
+  font-family: 'Gentium Plus', serif;
+  font-size: larger;
+  padding:10px 0px;
+  text-align: center;
+  background-color:rgb(130, 213, 166);
+  border-radius: 10px ;
+  border: none;
+  margin: 10px;
+  outline: none;
+  cursor:pointer;
+ }
+
+
+
+
+ /*SALES PAGE*/
 
 
  #bodySales {
@@ -258,7 +331,7 @@ p{
   
     transform: translateY(0px);
     transition: 0.3s linear;
-    background:  #809fff;
+    background:  #e54f57;
     border-radius: 5px;
     position: relative;
     overflow: hidden;
@@ -272,7 +345,7 @@ p{
   }
   
   .btn:hover{transform: translateY(-6px);
-    background: #1a66ff;}
+    background: #1c9a27;}
   
   .btn span {
     font-family: 'Farsan', cursive;
@@ -351,15 +424,19 @@ p{
   .product-image:hover img {transform: scale(1.2, 1.2);}
 
 
-  /*Footer */
+  /*FOOTER */
 footer {
  
     background-color:rgb(11, 111, 91);
     display: flex;
     flex-direction: column;
-   align-items: center;
-   justify-items: center;
-    margin: 0px;
+    align-items: center;
+    justify-items: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
 }
 
 footer p {
@@ -597,9 +674,20 @@ footer p {
         flex-direction: row;
         justify-content: space-around;
         align-items:stretch;
-      
-     
   }
+
+  .contact-in{
+    width:100%;
+    height: 100%;
+    margin:20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #ead1d1;
+    background-color: white;
+  
+   }
 
 
 

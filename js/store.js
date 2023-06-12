@@ -54,7 +54,7 @@ function quantityChanged(event) {
   }
   updateCartTotal();
 }
-
+//getting information like title , price and image from the card.
 function addToCartClicked(event) {
   let button = event.target;
   let shopItem = button.parentElement.parentElement;
